@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(font/FontAwesome.otf);
+}
+@font-face {
+    font-family: 'fontawesome-webfont';
+    src: url(font/fontawesome-webfont.ttf);
+}
+@font-face {
+    font-family: 'opensans-regular-webfont';
+    src: url(font/opensans-regular-webfont.ttf);
+}
+
+* {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+    nav {
+        
+    }
+    
+    ul.topnav {
+        width: 100%;
+      list-style-type: none;
+      margin-right: 0px;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.692);
+    }
+    
+    ul.topnav li {float: left;}
+    
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {background-color: rgb(243, 158, 0);}
+    
+    ul.topnav li a.active {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    ul.topnav li.right {
+        float: right;
+        margin-top: 5px;
+    }
+    
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right, 
+      ul.topnav li {float: none;}
+    }
+
+    .container-fluid
+    {
+       
+        background-size: cover;
+        height: 100vh;
+        background-image:url(/SandBox-master/img/2-3157003-technology-network-loop-background.jpg);
+
+    }
+   
