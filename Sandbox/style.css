@@ -1,69 +1,160 @@
-@font-face {
-    font-family: 'FontAwesome';
-    src: url(font/FontAwesome.otf);
+.flex-container > div > @font-face {
+  font-family: "FontAwesome";
+  src: url(font/FontAwesome.otf);
 }
 @font-face {
-    font-family: 'fontawesome-webfont';
-    src: url(font/fontawesome-webfont.ttf);
+  font-family: "fontawesome-webfont";
+  src: url(font/fontawesome-webfont.ttf);
 }
 @font-face {
-    font-family: 'opensans-regular-webfont';
-    src: url(font/opensans-regular-webfont.ttf);
+  font-family: "opensans-regular-webfont";
+  src: url(font/opensans-regular-webfont.ttf);
 }
 
 * {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+nav {
+  padding: 0;
 }
 
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin-right: 30%;
+  padding: 0;
+  overflow: auto;
+  background-color: rgba(2, 0, 0, 0.692);
+}
 
-    nav {
-        
-    }
-    
-    ul.topnav {
-        width: 100%;
-      list-style-type: none;
-      margin-right: 0px;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgba(0, 0, 0, 0.692);
-    }
-    
-    ul.topnav li {float: left;}
-    
-    ul.topnav li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    ul.topnav li a:hover:not(.active) {background-color: rgb(243, 158, 0);}
-    
-    ul.topnav li a.active {
-        font-weight: bold;
-        font-size: 28px;
-    }
-    
-    ul.topnav li.right {
-        float: right;
-        margin-top: 5px;
-    }
-    
-    @media screen and (max-width: 600px) {
-      ul.topnav li.right, 
-      ul.topnav li {float: none;}
-    }
+ul.topnav li {
+  float: left;
+}
 
-    .container-fluid
-    {
-       
-        background-size: cover;
-        height: 100vh;
-        background-image:url(img/2-3157003-technology-network-loop-background.jpg);
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
 
-    }
-   
+ul.topnav li a:hover:not(.active) {
+  background-color: rgb(240, 95, 64);
+}
+
+ul.topnav li a.active {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30%;
+}
+
+ul.topnav li.right {
+  float: right;
+  margin-top: 5px;
+  margin-right: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+header {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(img/fondo-bienvenido-grande.jpg);
+}
+header > .main {
+  margin-top: 12%;
+  margin-left: 30%;
+  width: 40%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: rgb(240, 95, 64);
+  border-radius: 0.1cm;
+}
+
+.section-quienes {
+  background-color: rgb(240, 95, 64);
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.section-quienes > img {
+  margin-top: 15px;
+  width: 200px;
+}
+
+.section-quienes > h2 {
+  margin: 50px;
+}
+.section-quienes > p {
+  margin: auto;
+  width: 50%;
+}
+.section-quienes > button {
+  margin-top: 25px;
+  background-color: white;
+  color: black;
+}
+
+.section-nuestroServicio {
+  background-color: rgb(252, 243, 243);
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 25px;
+  color: black;
+}
+.section-nuestroServicio > img {
+  padding-top: 15px;
+  width: 200px;
+}
+
+.section-nuestroServicio > h2 {
+  padding: 50px;
+  margin-left: 5px;
+}
+.container {
+  display: flex;
+  margin-left: 18%;
+  margin-right: 15%;
+  padding: 0%;
+  text-align: center;
+}
+
+.container > div > p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+}
+.container > div > img {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color: rgb(240, 95, 64);
+}
+.ultimos-proyectos {
+    color: black;
+}
+
+.ultimos-proyectos > h2 {
+  padding: 50px;
+  margin-left: 5px;
+    text-align: center;
+}
+.ultimos-proyectos > .row {
+    margin-left: 10%;
+    padding: 10px;
+}
