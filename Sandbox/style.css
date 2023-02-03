@@ -107,6 +107,7 @@ header > .main {
   text-align: center;
   padding-bottom: 25px;
   color: black;
+  padding-bottom: 80px;
 }
 .section-nuestroServicio > img {
   padding-top: 15px;
@@ -116,6 +117,7 @@ header > .main {
 .section-nuestroServicio > h2 {
   padding: 50px;
   margin-left: 5px;
+
 }
 
 
@@ -176,6 +178,18 @@ header > .main {
   margin-left: 10%;
 
 }
+
+.hover01 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
+}
+
 @media screen and (max-width: 700px) {
   ul.topnav li.right {
     margin-right: -5%;
@@ -200,9 +214,25 @@ header > .main {
   }
   .container-fluid
   {
-    margin-right: 50%;
+    margin: auto;
+    
 
   }
-  
+  .imagenes-galeria
+  {
+    width: 100%;
+  }
 
+  
+  
+}
+.hover01 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.2);
 }
