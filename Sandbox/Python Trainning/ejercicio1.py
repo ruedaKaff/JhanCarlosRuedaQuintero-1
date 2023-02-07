@@ -19,3 +19,5 @@ print(f"A.Exponenciacion: {numero1}**{numero2} ={exponenciacion}" )
 print(f"B.Division Entera: {numero1}//{numero2} = {divisionEntera}")
 
 print(f"C.Division Modular: {numero1}%{numero2} = {divisionModular}")
+
+
