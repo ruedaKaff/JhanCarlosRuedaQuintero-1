@@ -19,13 +19,13 @@ def calcularTotal(estrato,totalKw):
 
     if estrato == 1:
         total = totalKw * estrato1
-    if estrato == 2:
+    elif estrato == 2:
         total = totalKw * estrato2
-    if estrato == 3:
+    elif estrato == 3:
         total = totalKw * estrato3
-    if estrato == 4:
+    elif estrato == 4:
         total = totalKw * estrato4
-    if estrato == 5 or estrato == 6:
+    elif estrato == 5 or estrato == 6:
         total = totalKw * estrato5y6
     
     return total
@@ -36,7 +36,7 @@ opc = 0
 while opc != 2:
 
     print('1.Calcular el valor del recibo\n 2.Salir')
-    opc = int(input('--: '))
+    opc = int(input(': '))
 
     if opc == 1:
     
