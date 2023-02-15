@@ -41,12 +41,12 @@ header {
     font-size: 10px;
 }
 .hr-big {
-    border: 2.5px solid rgb(0, 0, 0);
+    border: 2.8px solid rgb(0, 0, 0);
     z-index: -100;
     border-radius: 50px;  
     box-decoration-break:initial;
-    width: 599px;
-    margin-left: 17%;
+    width: 500px;
+    margin-left: 22%;
 }
 
 
@@ -81,9 +81,9 @@ header {
 }
 
 footer{
-    margin-top: 35px;
+    margin-top: 40px;
     padding: 15px;
-    margin-left: 36%;
+    margin-left: 26%;
     
 }
 
