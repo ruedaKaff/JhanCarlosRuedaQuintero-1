@@ -8,6 +8,7 @@ C. División que retorne entero.
 numero1 = 10;
 numero2 = 2;
 
+
 """ Operaciones """
 
 exponenciacion= numero1**numero2;
