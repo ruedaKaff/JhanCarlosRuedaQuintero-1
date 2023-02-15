@@ -19,7 +19,7 @@ def calcularTotal(estrato,totalKw):
 
     if estrato == 1:
         total = totalKw * estrato1
-    elif estrato == 2:
+    elif estrato == 2: 
         total = totalKw * estrato2
     elif estrato == 3:
         total = totalKw * estrato3
