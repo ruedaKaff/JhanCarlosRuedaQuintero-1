@@ -1,55 +1,91 @@
 
-
+@font-face {
+    font-family: 'cloister_black';
+    src: url(font/cloister_black/CloisterBlack.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     text-align: justify;
+    
 }
 
 body{
- background-color: rgb(66, 66, 66);
+    background-image:url(https://static.vecteezy.com/system/resources/previews/005/714/078/large_2x/old-paper-texture-background-free-photo.jpg);
+}
+
+h1 {
+    font-size: 60px;
+    font-family:'cloister_black';
 }
 div {   
-    background-color:lightcoral;
+   /*  background-color:lightcoral;  */
     display:inline-block;   
-    margin: 0.5px;
-    padding: 0.5px 0px 10px 0px;
-
-}
-header {
-    background-color: brown;
-    width: 100vh;
-    margin-left: 25%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-.header_content { 
-    background-color:rgb(255, 255, 255);
-    padding: 3px;
-    width: 100vh;
+    padding: 0.5px;
+    margin-top: 0.1px;
     
 
 }
+header {
+   /*  background-color: brown; */
+    width: 50%;
+    margin-left: 25%;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+   
+    
+ 
+}
+.diminuto{
+    font-size: 10px;
+}
+.hr-big {
+    border: 6px solid rgb(0, 0, 0);
+    z-index: -100;
+    border-radius: 50px;  
+    box-decoration-break:initial;
+    width: 500px;
+    margin-left: 21%;
+}
+
+
+.header_content { 
+    /* background-color:rgba(255, 255, 255, 0); */
+    padding: 0;
+    width: 98vh;
+    margin-left:37px ;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    transform:translate(50%,-50%);
+    
+}
 
 .body_Section{
-    background-color: aquamarine;
+/*     background-color: aquamarine; */
     height:85vh;
-    width: 53.3%;
+    width: 50%;
     margin-left: 25%;
+    position: relative;
 }
 
 .body_columns{
-    background-color:rgb(0, 111, 148);
+  /*   background-color:rgb(0, 111, 148); */
     display:inline-block;
     margin-top: 18px;
-    width: 34vh;
+    width: 31.9vh;
     margin-left: 5.4px;
-    height: 82vh;
+    height: 92vh;
 }
 
-p {
-    font-size: 10px;
+footer{
+    margin-top: 150px;
+    padding: 15px;
+    margin-left: 36%;
+    
 }
+
+
 
