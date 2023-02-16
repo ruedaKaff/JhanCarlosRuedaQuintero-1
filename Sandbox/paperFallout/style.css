@@ -11,7 +11,14 @@
 }
 
 body{
-    background-image:url(https://static.vecteezy.com/system/resources/previews/005/714/078/large_2x/old-paper-texture-background-free-photo.jpg);
+    position: absolute;
+    width: 100%;
+    min-height: calc((1vw + 1vh) * 40);
+    /* center page with absolute position */
+    box-shadow: 2px 3px 20px black, 0 0 60px #723c06 inset;
+    background: #f1cfa8;
+    filter: url(#wavy2);
+    /*  background-image:url(https://static.vecteezy.com/system/resources/previews/005/714/078/large_2x/old-paper-texture-background-free-photo.jpg); */
 }
 
 h1 {
@@ -33,6 +40,7 @@ header {
     height: 120px;
     margin: 0 auto;
     position: relative;
+    /* background-image:url(https://static.vecteezy.com/system/resources/previews/005/714/078/large_2x/old-paper-texture-background-free-photo.jpg); */
    
     
  
@@ -65,6 +73,7 @@ header {
 
 .body_Section{
 /*     background-color: aquamarine; */
+    /* background-image:url(https://static.vecteezy.com/system/resources/previews/005/714/078/large_2x/old-paper-texture-background-free-photo.jpg); */
     height:85vh;
     width: 50%;
     margin-left: 25%;
@@ -84,6 +93,7 @@ footer{
     margin-top: 40px;
     padding: 15px;
     margin-left: 26%;
+    
     
 }
 
