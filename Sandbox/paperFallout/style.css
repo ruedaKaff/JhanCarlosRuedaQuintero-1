@@ -7,13 +7,14 @@
     margin: 0;
     padding: 0;
     text-align: justify;
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
 }
 
 body{
     position: absolute;
     width: 100%;
-    min-height: calc((1vw + 1vh) * 40);
+    min-height: calc((1vw + 1vh) * 45);
     /* center page with absolute position */
     box-shadow: 2px 3px 20px black, 0 0 60px #723c06 inset;
     background: #f1cfa8;
@@ -87,14 +88,6 @@ header {
     width: 31.9vh;
     margin-left: 5.4px;
     height: 92vh;
-}
-
-footer{
-    margin-top: 40px;
-    padding: 15px;
-    margin-left: 26%;
-    
-    
 }
 
 
