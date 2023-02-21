@@ -10,3 +10,4 @@ RAMAS DE GIT "branch"
 -(Safe command)git checkout <commitID> <filename>(opcional) : para mantener la version commiteamos
 - git reset HEAD: Saca todo del area de stagging
 
+
