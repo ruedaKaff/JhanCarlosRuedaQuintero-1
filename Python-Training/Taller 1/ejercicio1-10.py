@@ -1,13 +1,10 @@
-""" 4. Que son las expresiones regulares en Python? """
-import re
+""" Enumere 5 tipos de datos en Python y suministre un valor de
+ejemplo de cada uno. """
 
-p= re.compile (r'\bfoo\b')
-texto =  """ bar foo bar
-foo barbarfoo
-foofoo foo bar
-"""
-fa = patron.findall(texto)
+entero = 35
+largo = 33333333333333333333333333333333333333333
+flotante = 3.5
+complejo  = (4.5-2)+2j
+booleano = "false"
 
-print(f"Las expresiones regulares (llamadas RE, o regex, o patrones de regex) son esencialmente en un lenguaje de programación \n diminuto y altamente especializado incrustado dentro de Python y disponible a través del módulo re. ")
-print(f"Ejemplo --> p= re.compile (r'\bfoo\b') \n fa = patron.findall(texto) = {fa}")
-    
+print(f"\t <--- Tipos de datos ---> \n| int : {entero} \n| long: {largo} \n| float: {flotante}\n| complex: {complejo}\n| boolean: {booleano}")
