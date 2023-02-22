@@ -1,10 +1,9 @@
-""" Enumere 5 tipos de datos en Python y suministre un valor de
-ejemplo de cada uno. """
+""" 6. En sus propias palabras, qué son las funciones
+preconstruidas y proporcione 2 ejemplos. """
 
-entero = 35
-largo = 33333333333333333333333333333333333333333
-flotante = 3.5
-complejo  = (4.5-2)+2j
-booleano = "false"
 
-print(f"\t <--- Tipos de datos ---> \n| int : {entero} \n| long: {largo} \n| float: {flotante}\n| complex: {complejo}\n| boolean: {booleano}")
+
+datos=[35, 22, 1, 1025,2]
+valorM = max(datos)
+
+print(f"Las funciones predefinidas como su nombre lo indica estan ya previamente escritas dentro del lenguaje de pyhton y \n Se pueden llamar y utilizar de manera nativa que cubren funciones basicas para crear procesos mas complejos \n Ejemplo -->Encuentre el numero mayor de 'datos:' {datos} = 'max(datos)'= {valorM}")
