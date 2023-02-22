@@ -1,4 +1,12 @@
-""" 7. Cuál es la diferencia entre un condicional simple y un
-condicional compuesto? """
+""" 8. Escriba un bloque cualquiera de código en Python en donde
+utilice 2 condicionales (if) anidados. """
 
-print(f"La prinicipal diferencia es que el condicional simple ejecuta 1 posible proceso el complejo 2 o más Esto quiere decir que posee una instruccion en el si y una en el si no")
+numero1 = 10
+
+if numero1%2 == 0 :
+    if numero1 == 10:
+        print(f"El numero es par y ademas es {numero1}")
+    else:
+            print(f"el numero es par pero no es {numero1}")
+else:
+        print("el numero es impar")
