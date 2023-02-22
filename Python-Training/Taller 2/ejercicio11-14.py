@@ -68,5 +68,3 @@ while opc !=3:
     else:
         print ('------------------------------\n Ingrese una opcion valida' )
         
-
-
