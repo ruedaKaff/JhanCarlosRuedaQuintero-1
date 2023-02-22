@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color:rgb(138, 0, 131);
+}
+
+.navbar{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.024229760263480338) 0%, rgba(138, 0, 131, 0.76) 37%);
+    color: aliceblue;
+    padding: 45px;
+    
+}
+
+.brand{
+    font-size: 35px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 10%;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+
+a {
+    color: aliceblue;
+    float:right;
+    margin-right: 5%;
+    margin-top: -1.2%;
+    padding: 10px;
+    
+}
+li a:hover {
+
+   background-color:rgba(240, 159, 38, 0.836);
+   border-color: azure;
+   border-radius: 10px;
+   transform: scale(1.2);
+   
+  
+   
+}
+header {
+background-image: url("img/outrun-neon-dark-background-purple-1920x1080-4523.jpg"); ;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+ 
+}
+
+.contenido {
+    color: antiquewhite;
+    height: 250px;
+    width: 650px;
+    position: absolute;
+    align-items: center;
+    margin:auto ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    padding: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+      background-image: url("img/HD-wallpaper-dark-vertical-black-thumbnail.jpg");
+
+    }
+    .contenido {
+        margin-top: 15%;
+        font-size: 14px;
+    
+        width: 250px;
+    }
+    .brand{
+        float:none;
+        margin-left: 40%;
+        display: block;
+        width: 100%;
+    }
+    a{
+        margin-top: 5%;
+        margin-left: 42.5%;
+        float: none;
+        display: inline-block;
+        flex-direction: column;
+    }
+
+}
