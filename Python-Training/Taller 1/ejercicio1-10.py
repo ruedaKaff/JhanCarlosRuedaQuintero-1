@@ -1,12 +1,13 @@
-""" 3. Si hay operadores de igual precedencia, en qué orden se
-ejecutan?
+""" 4. Que son las expresiones regulares en Python? """
+import re
 
-A. De izquierda a derecha
-B. De derecha a izquierda """
+p= re.compile (r'\bfoo\b')
+texto =  """ bar foo bar
+foo barbarfoo
+foofoo foo bar
+"""
+fa = patron.findall(texto)
 
-numero1 = 10
-numero2 = 2
-numero3 = 3
-operacion= numero1 - numero2 + numero3
-
-print (f"B. De izquierda a derecha \n Ejemplo --> la suma y la resta {numero1}-{numero2} + {numero3} = {operacion}")
+print(f"Las expresiones regulares (llamadas RE, o regex, o patrones de regex) son esencialmente en un lenguaje de programación \n diminuto y altamente especializado incrustado dentro de Python y disponible a través del módulo re. ")
+print(f"Ejemplo --> p= re.compile (r'\bfoo\b') \n fa = patron.findall(texto) = {fa}")
+    
