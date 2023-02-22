@@ -1,33 +1,39 @@
-""" 
-2. N atletas han pasado a finales en salto triple en los juegos
-olímpicos de 2022.
-Diseñe un programa que pida por teclado los nombres de cada
-atleta finalista y a su vez, sus marcas del salto en metros.
-Informar el nombre de la atleta campeona que se quede
-con la medalla de oro y si rompió récord, reportar el pago que
-será de 500 millones. El récord esta en 15,50 metros.
+    """ 3. En pocos días comienza la vuelta a España y la federación
+colombiana de ciclismo, como incentivo ha determinado pagar
+un valor adicional. El programa pedirá por teclado el sueldo
+básico por kilometro recorrido, el número de kilómetros
+recorridos durante toda la vuelta, numero de kilómetros
+recorridos con la camiseta de líder.
+Calcular el valor a pagar total, si se sabe que si recorre en la
+bici más de 1800 kilómetros con la camiseta de líder, esos
+kilómetros se consideran especiales y tendrán un recargo de
+25%.
+El total de kilómetros por recorrer durante toda la vuelta serán
+3.277 kilómetros,el ganador de la vuelta a España recibirá 700
+millones de pesos. """
 
-"""
 
-atletas = {
 
-}
+def calcular(basico, kilometros, kilomentrosL):
 
-record = 15.50
-premio = 500
-
-a = int(input("Ingrese la cantidad de participantes: "))
-
-for i in range(a):
-    nombreAtleta = input("Nombre del atleta : ")
-    salto = float(input("Cuantos metros salto : "))
-    atletas[nombreAtleta] = salto
+    sueldo = (basico * (kilometros-kilomentrosL)) + (kilomentrosL*(basico+(basico*0.25)))
     
-mayor =  max(atletas, key=atletas.get)
-print(f'-------------------------------------- ')
-if atletas[mayor] > record:
-    
-    print(f"\nEl atleta ganador es: {mayor} con un salto de {atletas[mayor]} metros {premio} millones")
-else:
-    print(f"\nEl atleta ganador es: {mayor} no supero el record")
+    if kilometros >= 3277:
+        print(f'-------------------------------------- ')
+        print(f'\n El ciclista gano la vuelta a espana y es merecedor de 700 millones !!!!!')
+        print(f'\nSu salario fue un total de:{sueldo} con un total de {kilometros} recorridos y {kilomentrosL} recorridos como lider ')
+        print(f' {basico}----> Salario basico ')
+    else:
+        print(f'-------------------------------------- ')
+        print(f'\n El ciclista no gano la vuelta a espana')
+        print(f'\nSu salario fue un total de:{sueldo} con un total de {kilometros} recorridos y {kilomentrosL} recorridos como lider ')
+        print(f' {basico}----> Salario basico ')
+
+print('\n>>>>> Vuelta a Espana 3.277 KM <<<<<<')
+
+basico = float(input('Ingrese el sueldo basico por kilomentro recorrido: '))
+kilometros = float (input('Ingrese los kilometros recorridos totales: '))
+kilometrosLider = float(input('Kilometros recorridos como lider '))
+
+calcular(basico, kilometros, kilometrosLider)
         
