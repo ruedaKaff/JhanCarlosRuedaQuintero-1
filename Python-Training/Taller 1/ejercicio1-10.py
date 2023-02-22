@@ -1,23 +1,51 @@
-""" 9. Construya un algoritmo en Python, que permita ingresar la
-información de un empleado e imprima el nombre, los
-apellidos y la antigüedad. Los datos que se deben solicitar
-son los siguientes:
-*Nombre * Teléfono *Año de ingreso a la empresa
-*Apellidos *Edad. """
-import datetime
-x = datetime.datetime.now()
-xyears =x.year
+""" 10. En su casa le solicitan que realice un algoritmo en Python,
+que permita calcular el valor a pagar por concepto de
+energía eléctrica. Los datos que se conocen son los
+siguientes:
+- Mes de consumo - Valor kw
+-Total kw consumido en el mes - estrato """
 
-nombre= input('Cual es tu nombre ? :')
+""" valor de kw por estrato """
 
-telefono= input('ingresa tu telefono :')
+estrato1 = 233.58
+estrato2 = 291.98
+estrato3 = 496.37
+estrato4 = 583.97
+estrato5y6 = 700.76 
 
-añoIngreso= int(input('Año de ingreso a la empresa :'))
 
-apellidos= input('Cual es tu apellido :')
+def calcularTotal(estrato,totalKw):
+    total = 0 
 
-edad= input('Cual es tu edad? :')
+    if estrato == 1:
+        total = totalKw * estrato1
+    elif estrato == 2: 
+        total = totalKw * estrato2
+    elif estrato == 3:
+        total = totalKw * estrato3
+    elif estrato == 4:
+        total = totalKw * estrato4
+    elif estrato == 5 or estrato == 6:
+        total = totalKw * estrato5y6
+    
+    return total
 
-añosAntiguedad = (xyears - añoIngreso )
-print (f"Tu nombre es: {nombre} {apellidos} y tiene {añosAntiguedad} ")
 
+opc = 0
+
+while opc != 2:
+
+    print('1.Calcular el valor del recibo\n 2.Salir')
+    opc = int(input(': '))
+
+    if opc == 1:
+    
+        estrato = int(input('Ingrese el estrato (numero): '))
+        mes = str(input('Mes de consumo: (nombre):'))
+        totalKw = float(input('Kw consumidos en el mes: '))
+
+        totalPagar = calcularTotal(estrato,totalKw)
+        print(f'\nMes: {mes}\nKw consumidos en el mes: {totalKw}\nEl valor Total a pagar es de : ${totalPagar}\n')
+
+    elif opc != 1 and opc !=2:
+        print('INGRESE UNA OPCION VALIDA')
