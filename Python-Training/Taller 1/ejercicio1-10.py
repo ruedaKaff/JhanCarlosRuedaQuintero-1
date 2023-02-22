@@ -1,12 +1,23 @@
-""" 8. Escriba un bloque cualquiera de código en Python en donde
-utilice 2 condicionales (if) anidados. """
+""" 9. Construya un algoritmo en Python, que permita ingresar la
+información de un empleado e imprima el nombre, los
+apellidos y la antigüedad. Los datos que se deben solicitar
+son los siguientes:
+*Nombre * Teléfono *Año de ingreso a la empresa
+*Apellidos *Edad. """
+import datetime
+x = datetime.datetime.now()
+xyears =x.year
 
-numero1 = 10
+nombre= input('Cual es tu nombre ? :')
 
-if numero1%2 == 0 :
-    if numero1 == 10:
-        print(f"El numero es par y ademas es {numero1}")
-    else:
-            print(f"el numero es par pero no es {numero1}")
-else:
-        print("el numero es impar")
+telefono= input('ingresa tu telefono :')
+
+añoIngreso= int(input('Año de ingreso a la empresa :'))
+
+apellidos= input('Cual es tu apellido :')
+
+edad= input('Cual es tu edad? :')
+
+añosAntiguedad = (xyears - añoIngreso )
+print (f"Tu nombre es: {nombre} {apellidos} y tiene {añosAntiguedad} ")
+
