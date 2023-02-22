@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'GoldplayAlt-semiBold';
+  src: url(font/GoldplayAlt-SemiBold.ttf);
+}
+
+* {
+    font-family:'GoldplayAlt-semiBold';
+    margin: 0;
+    padding: 0;
+    font-size: 20px ;
+    color: #344563;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  ul.topnav {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.959);
+    overflow: auto;
+    list-style-type: none;
+    box-shadow: 1px 2px 3px rgb(180, 175, 175);
+    
+  }
+  
+ul.topnav li {
+    float: left;
+  }
+  ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    color: #FF991F;
+    font-size: 45px;
+    font-weight:bolder;
+    box-shadow: none;
+    font-family:'GoldplayAlt-semiBold';
+    transform: rotate(-13deg);
+    margin-left: 30%;
+   
+  }
+  ul.topnav li p {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:600;
+    padding: 15px;
+    box-shadow: none;
+  }
+
+  ul.topnav li button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px #E1EDFF;
+    border-radius: 21px ;
+    border-color: #E1EDFF;
+    font-weight:400;
+    opacity: 1;
+    
+    
+  }
+  ul.topnav li button:hover:not(.active){
+    background-color:#E1EDFF;
+  }
+
+  ul.topnav li i {
+    display: block;
+    text-decoration: none;
+    padding: 14px 17px;
+    color: aliceblue;
+    border-radius: 100vh;
+    border-color: rgb(0, 102, 255);
+    font-weight:lighter;
+    background-color: #FF991F;
+    
+  }
+  ul.topnav li.right {
+    float: right;
+    margin-top: 5px;
+    margin-right: 2%;
+  }
