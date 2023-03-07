@@ -1,17 +1,17 @@
 let table = [{
-    "Traditional ": "90-100",
+    Traditional : "90-100",
     "14-Point Range":"12-14",
-    "Letter ": "A",
-    "SBG_Rating": 4,
-    "Proficiency_Level_With_Standard": "Exceeds proficiency"
+    Letter : "A",
+    SBG_Rating: 4,
+    Proficiency_Level_With_Standard: "Exceeds proficiency"
 
 },
 {
-    "Traditional ": "80-89",
+    Traditional : "80-89",
     "14-Point Range":"9-11",
-    "Letter" : "B",
-    "SBG_Rating": 3,
-    "Proficiency_Level_With_Standard": "Demonstrates proficiency"
+    Letter : "B",
+    SBG_Rating: 3,
+    Proficiency_Level_With_Standard: "Demonstrates proficiency"
 
 },
 {
