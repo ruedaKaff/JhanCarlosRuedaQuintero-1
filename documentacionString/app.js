@@ -1,4 +1,5 @@
 /* Method charAt() */
 
-const str = 'HOLA MUNDO';
-console.log(str.toLowerCase()); // Output: hola mundo
+const str = 'Hola mundo';
+/* toUpperCase() */
+console.log(str.toUpperCase()); // Output: "   HOLA MUNDO!   "
