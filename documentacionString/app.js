@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-// replace()
-console.log(str.replace('Mundo', 'Amigo')); // Output: "   Hola Amigo!   "
+// Slice()
+console.log(str.slice(0, 4)); // Output: Hola
