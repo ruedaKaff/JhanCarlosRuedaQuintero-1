@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-// match()
-console.log(str.match(/o/g)); // Output: ["o", "o", "o"]
+// repeat()
+console.log(str.repeat(2)); // Output: "   Hola Mundo!      Hola Mundo!   "
