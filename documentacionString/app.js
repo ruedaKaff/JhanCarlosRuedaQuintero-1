@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-/* toUpperCase() */
-console.log(str.toUpperCase()); // Output: "   HOLA MUNDO!   "
+// trim()
+console.log(str.trim()); // Output: "Hola Mundo!"
