@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-// substring()
-console.log(str.substring(0, 4)); // Output: "   H"
+// split()
+console.log(str.split(' ')); // Output: ["", "", "", "Hola", "Mundo!", "", "", ""]
