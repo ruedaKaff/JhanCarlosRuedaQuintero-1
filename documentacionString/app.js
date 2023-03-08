@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-console.log(str.concat(' Que tal?')); // Output: "   Hola Mundo!    Que tal?"
-// Expected output: "☃★♲你"
+// indexOf()
+console.log(str.indexOf('Mundo')); // Output: 5
