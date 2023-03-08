@@ -1,4 +1,4 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-console.log(str.charAt(4)); // Output: a
+console.log(str.charCodeAt(0)); // Output: 32
