@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-// lastIndexOf()
-console.log(str.lastIndexOf('o')); // Output: 12
+// search()
+console.log(str.search('Mundo')); // Output: 5
