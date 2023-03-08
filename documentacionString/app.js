@@ -1,5 +1,5 @@
 /* Method charAt() */
 
-/* const str = 'Hola mundo'; */
-console.log(String.fromCodePoint(9731, 9733, 9842, 0x2F804));
+const str = 'Hola mundo';
+console.log(str.concat(' Que tal?')); // Output: "   Hola Mundo!    Que tal?"
 // Expected output: "☃★♲你"
