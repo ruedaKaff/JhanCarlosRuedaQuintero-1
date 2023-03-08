@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-// search()
-console.log(str.search('Mundo')); // Output: 5
+// match()
+console.log(str.match(/o/g)); // Output: ["o", "o", "o"]
