@@ -1,5 +1,5 @@
 /* Method charAt() */
 
 const str = 'Hola mundo';
-// trim()
-console.log(str.trim()); // Output: "Hola Mundo!"
+// raw()
+console.log(str.raw`C:\Development\profile\aboutme.html`);
