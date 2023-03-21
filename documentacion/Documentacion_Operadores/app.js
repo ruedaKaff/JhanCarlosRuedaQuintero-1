@@ -1,95 +1,82 @@
-/* DOCUMENTACION ARITMETICOS  */
-/* El operador suma (+) se utiliza para sumar dos valores. Si ambos valores son números, la suma se realiza normalmente. Si uno de los valores es una cadena de texto, el operador "+" concatenará las dos cadenas de texto.
-Ejemplo:
+/* DOCUMENTACION COMPARADORES */
+
+
+function Igualdad(){
+/* El operador de igualdad(==) se utiliza para comparar dos valores y devuelve "verdadero" si son iguales, "falso" si son diferentes.Este operador no compara los tipos de datos, por lo que puede haber conversiones de tipos implícitas.
+    Ejemplo: */
+
+let num1 = 10;
+let num2 = "10";
+console.log(num1 == num2); // Output: true
+}
+
+function igualdadEstricta() {
+/* El operador de igualdad estricta(===) se utiliza para comparar dos valores y devuelve "verdadero" si son iguales y del mismo tipo, "falso" si son diferentes.
+    Ejemplo:
  */
-function suma() {
-    let num1 = 10;
-    let num2 = 5;
-    let resultado = num1 + num2;
-    console.log(resultado); // Output: 15
 
-    let cadena1 = "Hola ";
-    let cadena2 = "mundo!";
-    let saludo = cadena1 + cadena2;
-    console.log(saludo); // Output: "Hola mundo!"
+let num1 = 10;
+let num2 = "10";
+console.log(num1 === num2); // Output: false
+}
 
+function desigualdad() {
+/* El operador de desigualdad(!=) se utiliza para comparar dos valores y devuelve "verdadero" si son diferentes, "falso" si son iguales.Al igual que con el operador de igualdad, este operador no compara los tipos de datos.
+    Ejemplo: */
+
+
+let num1 = 10;
+let num2 = "5";
+console.log(num1 != num2); // Output: true
 
 }
 
-
-/* El operador resta (-) se utiliza para restar un valor de otro valor.
-Ejemplo: */
-function resta() {
-    let num1 = 10;
-    let num2 = 5;
-    let resultado = num1 - num2;
-    console.log(resultado); // Output: 5
+function desigualdadEstricta() {
+/* El operador de desigualdad estricta(!==) se utiliza para comparar dos valores y devuelve "verdadero" si son diferentes y del mismo tipo, "falso" si son iguales.
+    Ejemplo: */
 
 
+let num1 = 10;
+let num2 = "10";
+console.log(num1 !== num2); // Output: true
 }
 
+function mayorQue() {
+/* El operador mayor que(>) se utiliza para comparar dos valores y devuelve "verdadero" si el primer valor es mayor que el segundo valor, "falso" en caso contrario.
+    Ejemplo:
+ */
 
-/* El operador multiplicación (*) se utiliza para multiplicar dos valores.
-Ejemplo: */
-
-function multiplicación() {
-    let num1 = 10;
-    let num2 = 5;
-    let resultado = num1 * num2;
-    console.log(resultado); // Output: 50
+let num1 = 10;
+let num2 = 5;
+console.log(num1 > num2); // Output: true
 }
 
+function menorQue() {
+/* El operador menor que(<) se utiliza para comparar dos valores y devuelve "verdadero" si el primer valor es menor que el segundo valor, "falso" en caso contrario.
+    Ejemplo: */
 
-/* El operador división (/) se utiliza para dividir un valor por otro valor.
-Ejemplo: */
 
-
-function division() {
-    let num1 = 10;
-    let num2 = 5;
-    let resultado = num1 / num2;
-    console.log(resultado); // Output: 2
+let num1 = 10;
+let num2 = 5;
+console.log(num1 < num2); // Output: false
 }
 
+function mayorIgualque(){
+/* El operador mayor o igual que(>=) se utiliza para comparar dos valores y devuelve "verdadero" si el primer valor es mayor o igual que el segundo valor, "falso" en caso contrario.
+    Ejemplo: */
 
 
-
-/* El operador módulo (%) se utiliza para obtener el resto de una división.
-Ejemplo: */
-
-function modulo() {
-    let num1 = 10;
-    let num2 = 5;
-    let resto = num1 % num2;
-    console.log(resto); // Output: 0
-
-    let num3 = 11;
-    let num4 = 5;
-    let resto2 = num3 % num4;
-    console.log(resto2); // Output: 1
+let num1 = 10;
+let num2 = 5;
+console.log(num1 >= num2); // Output: true
 }
 
+function menorIgualque(){
+/* El operador menor o igual que(<=) se utiliza para comparar dos valores y devuelve "verdadero" si el primer valor es menor o igual que el segundo valor, "falso" en caso contrario.
+    Ejemplo: */
 
-/* El operador incremento (++) se utiliza para aumentar el valor de una variable en 1.
-Ejemplo: */
 
-function incremento() {
-    let num1 = 10;
-    num1++;
-    console.log(num1); // Output: 11    
+let num1 = 10;
+let num2 = 5;
+console.log(num1 <= num2); // Output: false
 }
-
-
-/* 
-El operador decremento (--) se utiliza para disminuir el valor de una variable en 1.
-Ejemplo: */
-
-function decremento() {
-    let num1 = 10;
-    num1--;
-    console.log(num1); // Output: 9
-}
-
-
-
-
