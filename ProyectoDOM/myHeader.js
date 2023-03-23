@@ -1,35 +1,35 @@
 let header = {
   tittle: {
-    name: "Titulo llamativo",
+    name: "TITULO llamativo",
     href: "#",
   },
   company: [
     {
-      name: "Hola",
+      name: "ITEM1",
       href: "#",
     },
     {
-      name: "Mundo",
+      name: "ITEM2",
+      href: "#",  
+    },
+    {
+      name: "ITEM3",
       href: "#",
     },
     {
-      name: "Mundo",
+      name: "ITEM4",
       href: "#",
     },
     {
-      name: "Mundo",
+      name: "ITEM5",
       href: "#",
     },
     {
-      name: "Mundo",
+      name: "ITEM6",
       href: "#",
     },
     {
-      name: "Mundo",
-      href: "#",
-    },
-    {
-      name: "Mundo",
+      name: "ITEM7",
       href: "#",
     },
   ],
@@ -46,5 +46,5 @@ let header = {
 };
 
 export default {
-  header,
+  header
 };
