@@ -43,7 +43,27 @@ let header = {
       .querySelector(".company")
       .insertAdjacentHTML("beforeend", plantilla);
   },
+
+  fragShow() {
+    let plantilla = "";
+    for (let i = 0; 100; i++) {
+      document.body.insertAdjacentHTML ("beforeend", `<h1> hola '${i} ' </h1>`)      
+    }
+    postMessage({mensaje: plantilla});
+
+  /*   const ws = new Worker("storage/wsMyheader.js", {type:"module"});
+    ws.postMessage({nombre : "jim"});
+
+    ws.addEventListener("message", (e)=>{
+      console.log(e.data);
+      ws.terminate();
+    }) */
+  }
 };
+
+
+
+
 
 export default {
   header
