@@ -1,5 +1,5 @@
- <h2> This is a study repository, the content of the activities developed in during "Campus bootcamp" are inside the diferentes branches 
- Check it out! 
+ <h2> This is a study repository, the content of the activities developed during "Campus bootcamp" are inside the diferentes branches 
+ Check out it! 
  </h2>
 
 
